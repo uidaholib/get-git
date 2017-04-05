@@ -37,7 +37,7 @@ In your terminal, navigate to your desired location, then:
 
 Clone will download a full copy of the repository to your local machine and record its origin on GitHub. 
 This ensures there is a connection so you can `push` your changes to GitHub or `fetch` updates.
-Your clone has the complete history stored in the hidden `.git` hidden directory.
+Your clone has the complete history stored in the hidden `.git` directory.
 
 ## git status
 
@@ -79,6 +79,8 @@ git status
 
 We have stored away a new version of the documents in the repository and will be able to navigate this history.
 Make many smaller focused commits, rather than big ones, since small changes will be easier to undo, review, and merge.
+
+> The `-m` flag adds the message on the command line. If you do not include a message, Git will open your default text editor and wait for you to enter and save a message. 
 
 ## Repeat!
 

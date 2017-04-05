@@ -28,6 +28,16 @@ echo "more important notes!" >> notes.txt
 git status
 
 git diff
+
+git diff notes.txt
+
+git add notes.txt
+
+git diff
+
+git commit -m "testing diff"
+
+git diff
 ```
 
 Diff allows us to see what changes were made to the currently unstaged files. 
@@ -62,6 +72,8 @@ If you want to undo, remember to `add` and `commit`.
 
 ```
 git checkout HEAD~1 notes.txt
+
+git status
 
 git add notes.txt
 

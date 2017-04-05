@@ -45,6 +45,7 @@ git commit -m "new stuff"
 
 git checkout master
 git merge new3
+git branch -D new3
 ```
 
 ## .gitignore
