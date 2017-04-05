@@ -5,60 +5,121 @@ title: 3-Workflow
 
 # Basic Git Workflow
 
-`git clone... / pull`
+In general, the basic routine is: 
 
-Edit files
+Update your local repository with
+
+`git clone...` or `git pull`
+
+Edit the files locally, then
 
 ```
 git add...
+
 git commit...
+
 git push...
 ```
 
-## Track a file [ git add ]
+{% include image.html file="workflow.png" alt="git workflow" width="100%" %}
 
-git status
-Git status is your friend. Type it often. Create a new file:
-echo "some interesting notes" > notes.txt
-git status
-Start tracking the file with "git add", adding the file to the "staging area":
+Let's go through the basic commands!
+
+> Always remember Git has good built in help, so add `--help` to any command to learn more.
+
+## git clone
+
+To copy a repository from GitHub, use `git clone`.
+Go to your GitHub repository, click the green “Clone or download” button, and copy the URL.
+In your terminal, navigate to your desired location, then:
+
+`git clone https://github.com/uidaholib/gitworkshop.git`
+
+Clone will download a full copy of the repository to your local machine and record its origin on GitHub. 
+This ensures there is a connection so you can `push` your changes to GitHub or `fetch` updates.
+Your clone has the complete history stored in the hidden `.git` hidden directory.
+
+## git status
+
+Git status is your friend. Type it often! 
+
+`git status`
+
+Create a new file in your repository using a text editor, or the command line: 
+
+`echo "some interesting notes" > notes.txt`
+
+Then check the status again!
+
+## git add 
+
+Once you have made changes in your repository, you need to tell Git to start tracking the file.
+The function `git add` adds the files to the "staging area", meaning Git is now tracking the changes.
+
+```
 git add notes.txt
+
 git status
+```
 
-## Commit [ git commit ]
+## git commit
 
-We are ready to store a set of changes, let's commit!
-A message is required and will be recorded along with name and date. It is your note to
-posterity so you can remember what you did in the future.
+We changed a file, we added it to the staging area, and now we are ready to take a snapshot storing away these changes forever!
+Let's `commit`!
+
+Each `commit` records a snapshot of the state of the full repository along with the name, timestamp, and message of the committer.
+A message is required! 
+It is your note to posterity so you can remember why you made changes in the future.
+
+```
 git commit -m "add notes file"
+
 git status
-A commit is like a snap shot. We have stored away a new version of the documents in the
-repository and we will be able to navigate this history.
-Make many smaller focused commits, rather than big ones, since small changes will be
-easier to undo, review, and merge.
+```
+
+We have stored away a new version of the documents in the repository and will be able to navigate this history.
+Make many smaller focused commits, rather than big ones, since small changes will be easier to undo, review, and merge.
 
 ## Repeat!
 
-You will use "add", "commit", and "status" over and over!
-Git add fills the staging area.
-Git commit takes the snapshot of changes in the staging area.
+You will use `add`, `commit`, and `status` over and over!
+
+Git `add` fills the staging area.
+
+Git `commit` takes the snapshot of changes in the staging area.
+
+Edit a file in your test repository and repeat the routine.
+
+```
 git add notes.txt
+
 git commit -m "more notes"
-git status
-
-## Send changes to GitHub [ git push ]
 
 git status
-Notice git status now says "your branch is ahead of origin/master".
-We finished our changes to the repository locally, now we have to add them to the version
-hosted on GitHub.
-git push origin master
-Origin/master is the standard way to name the main branch of the central repository.
-Push sends only the commits, so it is efficient network use.
+```
 
-## Review basic workflow
+## git push 
+
+Notice that `git status` now says "your branch is ahead of origin/master".
+Origin/master is the standard way to name the main branch of the remote repository.
+We finished our changes to the repository locally, now we have to add them to the version hosted on GitHub using `push`.
+
+`git push origin master`
+
+`git push`
+
+Push sends only the changes, so it is very efficient network use.
+
+## Review 
+
+```
 git status
-git pull origin master
+
+git pull
+
 git add file.txt
+
 git commit -m "message"
-git push origin master
+
+git push 
+```

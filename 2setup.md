@@ -5,68 +5,59 @@ title: 2-Setup
 
 # First Time Setup and Configuration
 
-Shell
-terminal, command
-line, Bash, etc
-An application that lets you communicate with your
-operating system.
-
-Command-line interface (CLI)
-read-evaluate-print loop (REPL)
-On Windows use Git Bash for Unix-like commands
-so you can follow Mac or Linux tutorials.
-
-https://evanwill.github.io/_drafts/notes/commandline.html
+To start learning Git we will use it on the command line.
+Although there are GUI clients to manage Git repositories, being familiar with the command line version will help you better understand the basic workflow.
+If you need a command line refresher, check out this [mini-lesson](https://evanwill.github.io/_drafts/notes/commandline.html).
+So fire up your favorite shell, terminal, or Git Bash to get started!
 
 ## Git Config
-one time initial
-setup
+
+Some initial setup is necessary the first time you use Git on a computer.
+You will use these commands only once, unless you want to change something.
+
 Set your name and email:
+
+```
 git config --global user.name "Evan Will"
 git config --global user.email "myemail@gmail.com"
-Set your text editor (Windows "notepad", Mac "edit -w", Linux "nano -w"):
-git config --global core.editor “notepad”
+```
 
-Worried about privacy, see https://help.github.com/articles/keeping-your-email-address-private/
+Set your default text editor (Windows "notepad", Mac "edit -w", Linux "nano -w"):
+
+```
+git config --global core.editor “notepad”
+```
+
+> Your email and user name is recorded with every commit.
+> This helps ensure integrity and authenticity of the history.
+> Most people keep their email public, but if you are concerned about privacy, check GitHub's tips to [hide your email](https://help.github.com/articles/keeping-your-email-address-private/).
 
 ## Create repository locally
 
+To try Git out, create a local repository:
+
+```
 mkdir test
+
 cd test
+
 git init
-Your new folder "test" will have a hidden folder ".git" which contains the full history. It is
-hidden for a reason--you don't need to know anything about it!
-If you want to add this repository to GitHub, you have to "git remote add".
-For most basic workflows it is easier to start a repository on GitHub, then "clone" it to your
-local machine.
+```
+
+Your new directory `test` will have a hidden `.git` directory which will contain the full history. 
+It is hidden for a reason--you don't need to know anything about it!
+If you want to add this repository to GitHub, you have to `git remote add`.
 
 ## Create repository on GitHub
 
-GitHub
-git repository hosting
-service
-Use Git in a web browser!
-Create a Repository:
-● https://github.com/
-● Log in
-● Click + to create new repository
-● Name it
-● Click initialize with README
-● Click "Create repository"
-Create a commit:
-● Click on a file
-● Edit in browser
-● Scroll down to "Commit changes"
-● Fill in the information describing the change
-● Click "Commit changes"
+A more common workflow is to create or fork a repository on GitHub, then `clone` it to your local machine.
+GitHub acts as Git in your browser, with added benefits.
+Create a new remote repository:
 
-## Clone repository from GitHub
+- Login to [GitHub](https://github.com/) 
+- Click the plus sign on the upper right and select "New repository" from the drop down
+- Give it a nice name
+- Check "Initialize this repository with a README"
+- Click "Create repository"
 
-Go to your GitHub repository,
-Click “clone or download” button,
-Copy the clone url.
-git clone https://github.com/uidaholib/gitworkshop.git
-Clone will download a full copy of the repository to your local machine and
-record its origin on GitHub. This ensures there is a connection so you can
-Push your changes to GitHub or Pull updates.
-Your clone has the full history stored in the ".git" hidden folder.
+With this test repository ready, we can move on to the basic Git workflow!
