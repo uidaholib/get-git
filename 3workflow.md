@@ -123,3 +123,7 @@ git commit -m "message"
 
 git push 
 ```
+
+> Depending on your workflow, you may want to `git fetch` rather than `pull`.
+> `git fetch` = update repository from remote.
+> `git pull` = `fetch` + `merge`, i.e. update from remote and combine with local work.
