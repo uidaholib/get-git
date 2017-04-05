@@ -1,0 +1,11 @@
+# Jekyll workshop template
+# based on minima theme
+
+title: Get Git!
+description: > 
+  Learn about git version control and GitHub for fun and profit. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://uidaholib.github.io/get-git" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
