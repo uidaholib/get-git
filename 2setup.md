@@ -36,7 +36,7 @@ git config --global core.editor “notepad”
 > You are most likely to encounter it when merging.
 > If you don't set a default editor, Git will use the default default--which might be surprising if you are not used to terminal-based editors. 
 > The default default on Windows is [VIM](http://www.vim.org/). 
-> If you are stuck in VIM and can't figure out how to escape, type `:wq` to save and quit([quick ref](https://w3.cs.jmu.edu/bernstdh/Web/common/help/vim.php)).
+> If you are stuck in VIM and can't figure out how to escape, type `:wq` to save and quit ([quick ref](https://w3.cs.jmu.edu/bernstdh/Web/common/help/vim.php)).
 
 ## Create repository locally
 
