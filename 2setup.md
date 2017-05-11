@@ -29,7 +29,7 @@ git config --global user.email "myemail@gmail.com"
 Set your default text editor (Windows "notepad", Mac "edit -w", Linux "nano -w"):
 
 ```
-git config --global core.editor “notepad”
+git config --global core.editor "notepad"
 ```
 
 > Git opens the default editor to ask for commit messages. 

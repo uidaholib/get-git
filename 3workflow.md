@@ -30,7 +30,7 @@ Let's go through the basic commands!
 ## git clone
 
 To copy a repository from GitHub, use `git clone`.
-Go to your GitHub repository, click the green “Clone or download” button, and copy the URL.
+Go to your GitHub repository, click the green "Clone or download" button, and copy the URL.
 In your terminal, navigate to your desired location, then:
 
 `git clone https://github.com/uidaholib/gitworkshop.git`
