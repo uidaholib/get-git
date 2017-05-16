@@ -20,15 +20,15 @@ title: 6-Resources
 - [Git for designers](https://medium.com/@dfosco/git-for-designers-856c434716e#.831v9cwbg)
 - [Git in the Classroom](https://opensource.com/education/16/1/git-education-classroom)
 - [Git for artists](https://opensource.com/life/16/2/version-control-isnt-just-programmers)
-- Openstax [textbooks](https://github.com/philschatz/algebra-trigonometry-book/)
+- [Happy Git and GitHub for the useR](http://happygitwithr.com/) (use Git with RStudio)
 - Github-pages [student portfolio lesson](https://dannguyen.github.io/github-for-portfolios/)
 
 # Repository hosting services
 
 The Big ones:
-- [GitHub](https://github.com/) (Free public repos, gh-pages web hosting, huge community, Github Desktop app)
-- [Bitbucket](https://bitbucket.org/) (Free private repos (limited collaborators), Git or Mercurial, SourceTree app)
-- [Gitlab](https://about.gitlab.com/) (Free public and private repos, unlimited collaborators)
+- [GitHub](https://github.com/) (Free public repos, [gh-pages](https://pages.github.com/) web hosting, huge community, [Github Desktop](https://desktop.github.com/) app, [Education discount](https://education.github.com/))
+- [Bitbucket](https://bitbucket.org/) (Free private repos with limited collaborators, Git or Mercurial, [SourceTree](https://www.atlassian.com/software/sourcetree) app, [Education discount](https://bitbucket.org/product/education))
+- [Gitlab](https://about.gitlab.com/gitlab-com/) (Free public and private repos with unlimited collaborators, [gitlab pages](https://pages.gitlab.io/))
 
 Others:
 - [Gitbook](https://www.gitbook.com/) (focus on creating and publishing books)

@@ -17,9 +17,12 @@ They provide some great introductory [tutorials](https://guides.github.com/), bu
 - Mac: check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, download the official [Mac installer](https://git-scm.com/downloads).
 - Linux: install from your distribution's software center or package manager (for Ubuntu `sudo apt-get install git`).
 
-## GitHub Desktop
+## Git GUIs
 
-If you are interested in using a visual GUI application integrated with GitHub, Windows and Mac users should also install [GitHub Desktop](https://desktop.github.com/) using the default options.
-You can install GitHub Desktop in addition to other versions of Git.
+This workshop introduces the basic Git workflow using the command line. 
+However, you may prefer a GUI application for your future day-to-day work with Git.
+There are a variety of [GUI apps available](https://git-scm.com/downloads/guis) for managing and visualizing Git repositories.
 
-There are other [GUI apps available](https://git-scm.com/downloads/guis) for managing and visualizing Git repositories, including Linux options. 
+If you are interested in using a simple visual app integrated with GitHub, Windows and Mac users should also install [GitHub Desktop](https://desktop.github.com/) using the default options.
+A more powerful alternative is [SourceTree](https://www.sourcetreeapp.com/) from Atlassian / [BitBucket](https://bitbucket.org/).
+On Linux [gitg](https://wiki.gnome.org/Apps/Gitg/) and [GitKraken](https://www.gitkraken.com/) are good options.
