@@ -17,9 +17,10 @@ title: 6-Resources
 # Recent articles
 
 - [Art of the Commit](http://alistapart.com/article/the-art-of-the-commit)
+- [Push, Pull, Fork: GitHub for Academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+- [Why you should use GitHub: Lessons for the classroom and newsroom](http://www.storybench.org/use-github-lessons-classroom-newsroom/)
+- [Using Git in the classroom](https://opensource.com/education/16/1/git-education-classroom)
 - [Git for designers](https://medium.com/@dfosco/git-for-designers-856c434716e#.831v9cwbg)
-- [Git in the Classroom](https://opensource.com/education/16/1/git-education-classroom)
-- [Git for artists](https://opensource.com/life/16/2/version-control-isnt-just-programmers)
 - [Happy Git and GitHub for the useR](http://happygitwithr.com/) (use Git with RStudio)
 - Github-pages [student portfolio lesson](https://dannguyen.github.io/github-for-portfolios/)
 
@@ -36,6 +37,6 @@ Others:
 
 # Other Version Control Software
 
-- [Mercurial (Hg)](https://www.mercurial-scm.org/) (some say its easier than Git?)
+- [Mercurial (Hg)](https://www.mercurial-scm.org/) (some say its easier than Git? See this [intro for artists](https://opensource.com/life/16/2/version-control-isnt-just-programmers))
 - [Subversion](https://subversion.apache.org/) (old standard centralized system)
 - [Fossil](http://www.fossil-scm.org/) (unique web interface based system)

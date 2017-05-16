@@ -23,6 +23,6 @@ This workshop introduces the basic Git workflow using the command line.
 However, you may prefer a GUI application for your future day-to-day work with Git.
 There are a variety of [GUI apps available](https://git-scm.com/downloads/guis) for managing and visualizing Git repositories.
 
-If you are interested in using a simple visual app integrated with GitHub, Windows and Mac users should also install [GitHub Desktop](https://desktop.github.com/) using the default options.
+If you are interested in using a simple visual app integrated with GitHub, Windows and Mac users should install [GitHub Desktop](https://desktop.github.com/) using the default options.
 A more powerful alternative is [SourceTree](https://www.sourcetreeapp.com/) from Atlassian / [BitBucket](https://bitbucket.org/).
 On Linux [gitg](https://wiki.gnome.org/Apps/Gitg/) and [GitKraken](https://www.gitkraken.com/) are good options.

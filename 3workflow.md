@@ -69,7 +69,7 @@ Let's `commit`!
 
 Each `commit` records a snapshot of the state of the full repository along with the name, timestamp, and message of the committer.
 A message is required! 
-It is your note to posterity so you can remember why you made changes in the future.
+It is your note to posterity so you can remember why you made changes in the future (for style tips, see [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit)).
 
 ```
 git commit -m "add notes file"
