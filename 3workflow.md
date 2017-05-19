@@ -31,11 +31,13 @@ Let's go through the basic commands!
 
 To copy a repository from GitHub, use `git clone`.
 Go to your GitHub repository, click the green "Clone or download" button, and copy the URL.
-In your terminal, navigate to your desired location, then:
+In your terminal, navigate to your desired location (I suggest a folder named "GitHub" in your Documents directory). 
+Type `git clone` and paste in your URL (right click or shift+Ctrl+V).
+For example:
 
 `git clone https://github.com/uidaholib/gitworkshop.git`
 
-Clone will download a full copy of the repository to your local machine and record its origin on GitHub. 
+Clone will download a full copy of the repository to your local machine and record its origin on GitHub (if you get an error on Git Bash, check this [note](notes/gitbash-bug.html)). 
 This ensures there is a connection so you can `push` your changes to GitHub or `fetch` updates.
 Your clone has the complete history stored in the hidden `.git` directory.
 
