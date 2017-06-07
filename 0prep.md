@@ -17,7 +17,7 @@ They provide some great introductory [tutorials](https://guides.github.com/), bu
 - Mac: check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, download the official [Mac installer](https://git-scm.com/downloads).
 - Linux: install from your distribution's software center or package manager (for Ubuntu `sudo apt-get install git`).
 
-## Git GUIs
+## Git GUIs *(optional)*
 
 This workshop introduces the basic Git workflow using the command line. 
 However, you may prefer a GUI application for your future day-to-day work with Git.
@@ -27,7 +27,7 @@ If you are interested in using a simple visual app integrated with GitHub, Windo
 A more powerful alternative is [SourceTree](https://www.sourcetreeapp.com/) from Atlassian / [BitBucket](https://bitbucket.org/).
 On Linux [gitg](https://wiki.gnome.org/Apps/Gitg/) and [GitKraken](https://www.gitkraken.com/) are good options.
 
-## Text Editor
+## Text Editor *(optional)*
 
 When working with code you should have a good text editor.
 Windows notepad does not handle UTF-8 encoding or UNIX line endings that are standard for most cross platform applications. 
