@@ -26,3 +26,14 @@ There are a variety of [GUI apps available](https://git-scm.com/downloads/guis) 
 If you are interested in using a simple visual app integrated with GitHub, Windows and Mac users should install [GitHub Desktop](https://desktop.github.com/) using the default options.
 A more powerful alternative is [SourceTree](https://www.sourcetreeapp.com/) from Atlassian / [BitBucket](https://bitbucket.org/).
 On Linux [gitg](https://wiki.gnome.org/Apps/Gitg/) and [GitKraken](https://www.gitkraken.com/) are good options.
+
+## Text Editor
+
+When working with code you should have a good text editor.
+Windows notepad does not handle UTF-8 encoding or UNIX line endings that are standard for most cross platform applications. 
+For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient.
+However, a more complete code editor will be helpful for working on projects.
+
+Open-source cross platform suggestions:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Atom](https://atom.io/)
