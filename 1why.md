@@ -16,8 +16,9 @@ Automated version control WILL make your life better!
 
 [Git](https://git-scm.com/) is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed](https://en.wikipedia.org/wiki/Distributed_version_control) version control system.
 Rather than storing a series of copies of a file with different filenames, Git captures a snapshot of your project each time you `commit`.
-The complete history of your project is safely stored in a `.git` repository.
+The complete history of your project is safely stored in a hidden `.git` repository.
 Everything is recorded with checksums to ensure no information can be lost or corrupted without detection. 
+Each commit records the creator, email, and changes made, providing transparency and credit for your project.
 
 {% include image.html file="versions.png" alt="file versions" cap="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank'>Version Control with Git</a>" width="100%" %}
 
