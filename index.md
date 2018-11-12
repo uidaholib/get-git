@@ -16,6 +16,8 @@ layout: default
 > Members of the university community from all disciplines are encouraged to attend as Github has diverse applications from managing code and technical documentation, to collaborative writing of lessons and articles, to setting up free blogs and websites. 
 > We will introduce Git on the command line and the Github web interface.
 
+*Note:* A newer version of this workshop is available at [https://evanwill.github.io/get-git/](https://evanwill.github.io/get-git/).
+
 ### Hosted at [University of Idaho Library](http://www.lib.uidaho.edu/) April 2017
 
 ![University of Idaho Library logo](images/header-brand.png)
