@@ -4,6 +4,8 @@ layout: default
 
 # Introduction to Git and GitHub 
 
+**Note: an updated version of this workshop with videos is available at <https://evanwill.github.io/get-git-b/>**
+
 {% include image.html file="xkcd_git_2x.png" alt="xkcd git" cap="<a href='https://xkcd.com/1597/' target='_blank'>xkcd git</a>" width="60%" %}
 
 > Do you have files like final.txt, final_revised.txt, final_revised2.txt, final_revised2_revised.txt? Version control WILL make your life better! 
@@ -15,8 +17,6 @@ layout: default
 > This workshop will get you started with version control by introducing the basic Git workflow and commands, and will cover Github features for collaboration and sharing. 
 > Members of the university community from all disciplines are encouraged to attend as Github has diverse applications from managing code and technical documentation, to collaborative writing of lessons and articles, to setting up free blogs and websites. 
 > We will introduce Git on the command line and the Github web interface.
-
-*Note:* A newer version of this workshop is available at [https://evanwill.github.io/get-git/](https://evanwill.github.io/get-git/).
 
 ### Hosted at [University of Idaho Library](http://www.lib.uidaho.edu/) April 2017
 
